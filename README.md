@@ -17,6 +17,7 @@ This project demonstrates a strong understanding of:
 * Basic statistical language modeling
 
 * Program design, testing, and debugging
+
   
 
 Project Purpose
@@ -34,6 +35,7 @@ The primary goal of this project was to:
 5. Design a reusable object-oriented system for text analysis
 
 
+
 What This Project Does
 
 At a high level, the classifier:
@@ -46,6 +48,7 @@ At a high level, the classifier:
 
 * Classifies an unknown text by comparing it against known sources
   
+
 
 Core Features Extracted
 
@@ -92,6 +95,7 @@ Each TextModel object represents a body of text and captures five distinct featu
 * Each of these features contributes independent evidence toward classification.
 
 
+
 Text Preprocessing
 
 Cleaning
@@ -120,6 +124,7 @@ A custom stemming function was designed to:
 This stemmer is intentionally rule-based and transparent, prioritizing clarity over completeness.
 
 
+
 Statistical Similarity Model
 
 Log-Likelihood Scoring
@@ -144,6 +149,7 @@ For each feature dictionary:
 Each feature produces a log similarity score, and all scores are compared across sources.
 
 
+
 Classification Logic
 
 To classify an unknown text:
@@ -157,6 +163,7 @@ To classify an unknown text:
 4. The source that “wins” the most feature comparisons is selected
 
 5. This majority-based approach avoids over-reliance on any single feature.
+
 
 
 Object-Oriented Design
